@@ -1,0 +1,251 @@
+{
+  "manifest": "FMI_manifests_and_decision_rules_v1_2.md / Part B (Q-HELDOUT-1)",
+  "zero_shot_native_BA": 77.29820531958337,
+  "seed_level": {
+    "delta_regime_attention": {
+      "mean": 1.6665798480289549,
+      "sd": 0.3184730525045202,
+      "min": 1.3327389901706823,
+      "max": 1.9670584904452681,
+      "values": [
+        1.3327389901706823,
+        1.699942063470914,
+        1.9670584904452681
+      ],
+      "positive_seeds": 3
+    },
+    "delta_path_frozen_attention": {
+      "mean": 1.7193337683543557,
+      "sd": 0.24144686179813818,
+      "min": 1.5314211230143258,
+      "max": 1.9916526862150477,
+      "values": [
+        1.5314211230143258,
+        1.6349274958336935,
+        1.9916526862150477
+      ],
+      "positive_seeds": 3
+    },
+    "delta_path_trainable_attention": {
+      "mean": 0.05275392032540083,
+      "sd": 0.13408473077278396,
+      "min": -0.06501456763722047,
+      "max": 0.19868213284364344,
+      "values": [
+        0.19868213284364344,
+        -0.06501456763722047,
+        0.024594195769779503
+      ],
+      "positive_seeds": 2
+    },
+    "enabled_minus_no_path_attention": {
+      "mean": 0.3473872162935881,
+      "sd": 0.02416812095842838,
+      "min": 0.3199432484459095,
+      "max": 0.36549321005351487,
+      "values": [
+        0.35672519038134,
+        0.3199432484459095,
+        0.36549321005351487
+      ],
+      "positive_seeds": 3
+    },
+    "delta_regime_mixer": {
+      "mean": 1.6696350687915167,
+      "sd": 0.26220211640506436,
+      "min": 1.4640405818147855,
+      "max": 1.9649112203214543,
+      "values": [
+        1.4640405818147855,
+        1.57995340423831,
+        1.9649112203214543
+      ],
+      "positive_seeds": 3
+    },
+    "delta_path_frozen_mixer": {
+      "mean": 1.693659310145738,
+      "sd": 0.2359315316708506,
+      "min": 1.5361133058774499,
+      "max": 1.9649112203214543,
+      "values": [
+        1.5361133058774499,
+        1.57995340423831,
+        1.9649112203214543
+      ],
+      "positive_seeds": 3
+    },
+    "delta_path_trainable_mixer": {
+      "mean": 0.02402424135422147,
+      "sd": 0.04161120663880891,
+      "min": 0.0,
+      "max": 0.0720727240626644,
+      "values": [
+        0.0720727240626644,
+        0.0,
+        0.0
+      ],
+      "positive_seeds": 1
+    },
+    "enabled_minus_no_path_mixer": {
+      "mean": 0.4716439062660953,
+      "sd": 0.17926212041009035,
+      "min": 0.33020242792628096,
+      "max": 0.6732487123338018,
+      "values": [
+        0.33020242792628096,
+        0.6732487123338018,
+        0.4114805785382032
+      ],
+      "positive_seeds": 3
+    }
+  },
+  "bootstrap": {
+    "delta_regime_attention": {
+      "point": 1.6665798480289549,
+      "primary_shared_passage_ci95": [
+        0.46952523125024126,
+        2.863081595446151
+      ],
+      "hierarchical_ci95": [
+        0.6451257363318967,
+        2.703948428260276
+      ]
+    },
+    "delta_path_frozen_attention": {
+      "point": 1.7193337683543557,
+      "primary_shared_passage_ci95": [
+        0.531902937931785,
+        2.8977546231705
+      ],
+      "hierarchical_ci95": [
+        0.725724066388675,
+        2.7055383712593533
+      ]
+    },
+    "delta_path_trainable_attention": {
+      "point": 0.05275392032540083,
+      "primary_shared_passage_ci95": [
+        -0.07297211531525913,
+        0.1782718622030414
+      ],
+      "hierarchical_ci95": [
+        -0.12236845713536629,
+        0.2991729481768997
+      ]
+    },
+    "enabled_minus_no_path_attention": {
+      "point": 0.3473872162935881,
+      "primary_shared_passage_ci95": [
+        -0.19244955800892813,
+        0.8854670491238164
+      ],
+      "hierarchical_ci95": [
+        -0.36871659617706015,
+        1.0789266647953217
+      ]
+    },
+    "delta_regime_mixer": {
+      "point": 1.6696350687915167,
+      "primary_shared_passage_ci95": [
+        0.34296085926241204,
+        2.9490082969000984
+      ],
+      "hierarchical_ci95": [
+        0.6078754419103951,
+        2.709722009667269
+      ]
+    },
+    "delta_path_frozen_mixer": {
+      "point": 1.693659310145738,
+      "primary_shared_passage_ci95": [
+        0.366543774252286,
+        2.970982694522992
+      ],
+      "hierarchical_ci95": [
+        0.6536906744392343,
+        2.718419248044884
+      ]
+    },
+    "delta_path_trainable_mixer": {
+      "point": 0.02402424135422147,
+      "primary_shared_passage_ci95": [
+        -0.037505818959562495,
+        0.08837972794791632
+      ],
+      "hierarchical_ci95": [
+        -0.04600878242212616,
+        0.14337811902810543
+      ]
+    },
+    "enabled_minus_no_path_mixer": {
+      "point": 0.4716439062660953,
+      "primary_shared_passage_ci95": [
+        -0.09628266948880095,
+        1.0280796974624324
+      ],
+      "hierarchical_ci95": [
+        -0.26697326087968465,
+        1.2426235732503934
+      ]
+    },
+    "attention_minus_mixer_frozen": {
+      "point": 0.02567445820861754,
+      "primary_shared_passage_ci95": [
+        -0.7170565349074287,
+        0.7968579954581798
+      ],
+      "hierarchical_ci95": [
+        -0.7327398783361229,
+        0.7719671897112789
+      ]
+    },
+    "attention_minus_mixer_trainable": {
+      "point": -0.1242566899725072,
+      "primary_shared_passage_ci95": [
+        -0.6606830136829651,
+        0.4180616396007485
+      ],
+      "hierarchical_ci95": [
+        -0.8903766551769593,
+        0.6046171643703327
+      ]
+    }
+  },
+  "attention_minus_mixer_by_seed": [
+    {
+      "seed": 13,
+      "regime": "frozen",
+      "attention_minus_mixer": -0.004692182863124117
+    },
+    {
+      "seed": 13,
+      "regime": "trainable",
+      "attention_minus_mixer": 0.026522762455059024
+    },
+    {
+      "seed": 42,
+      "regime": "frozen",
+      "attention_minus_mixer": 0.054974091595383356
+    },
+    {
+      "seed": 42,
+      "regime": "trainable",
+      "attention_minus_mixer": -0.3533054638878923
+    },
+    {
+      "seed": 71,
+      "regime": "frozen",
+      "attention_minus_mixer": 0.026741465893593386
+    },
+    {
+      "seed": 71,
+      "regime": "trainable",
+      "attention_minus_mixer": -0.04598736848468832
+    }
+  ],
+  "prespecified_wording": {
+    "attention": "the frozen-minus-trainable dependence difference is positive for the attention path on the held-out set (+1.67 points, 95% CI [+0.47, +2.86]); direction replicates the encoder result; seed-level direction consistency 3/3.",
+    "mixer": "the frozen-minus-trainable dependence difference is positive for the mixer path on the held-out set (+1.67 points, 95% CI [+0.34, +2.95]); direction replicates the encoder result; seed-level direction consistency 3/3."
+  },
+  "note": "Intervals including zero are inconclusive; equivalence is not claimed; the headroom explanation is a hypothesis (B.9)."
+}

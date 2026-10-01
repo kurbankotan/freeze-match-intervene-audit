@@ -1,0 +1,29 @@
+{
+  "experiment": "FMI NB-2 FT-RERUN-1 + D2",
+  "manifest": "FMI manifest v1.3 amendment / A.12 FT-TRAJ-1 (per-epoch three-state evaluation)",
+  "manifest_lock_commit": "",
+  "repository_commit": "d33722b1f0ea36dd3296656a8050bb3eeed0122f",
+  "arms": [
+    "lraa"
+  ],
+  "seeds": [
+    7595,
+    1676
+  ],
+  "epochs": 3,
+  "max_length": 512,
+  "latent_rank": 256,
+  "latent_heads": 8,
+  "batch_size": 2,
+  "grad_accum": 8,
+  "encoder_lr": 8e-06,
+  "adapter_scorer_lr": 0.0002,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "stop_gate_points": 1.0,
+  "nb1_A_frozen": {
+    "13": 28.652755007215227,
+    "42": 23.70830766881619,
+    "71": 30.375044585678253
+  }
+}

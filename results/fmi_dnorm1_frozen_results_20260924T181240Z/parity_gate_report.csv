@@ -1,0 +1,37 @@
+model,seed,state,check,label_mismatches,max_abs_prob_dev,pass,aggregate_devs_points
+lcca,13,on,label_exact_vs_adapter_off_archive,0.0,,True,
+lcca,13,off,label_exact_vs_adapter_off_archive,0.0,,True,
+lcca,42,on,label_exact_vs_adapter_off_archive,0.0,,True,
+lcca,42,off,label_exact_vs_adapter_off_archive,0.0,,True,
+lcca,71,on,label_exact_vs_adapter_off_archive,0.0,,True,
+lcca,71,off,label_exact_vs_adapter_off_archive,0.0,,True,
+mlp,13,on,label_exact_vs_adapter_off_archive,0.0,,True,
+mlp,13,off,label_exact_vs_adapter_off_archive,0.0,,True,
+mlp,42,on,label_exact_vs_adapter_off_archive,0.0,,True,
+mlp,42,off,label_exact_vs_adapter_off_archive,0.0,,True,
+mlp,71,on,label_exact_vs_adapter_off_archive,0.0,,True,
+mlp,71,off,label_exact_vs_adapter_off_archive,0.0,,True,
+token_mixer,13,on,label_exact_and_prob_vs_v13_archive,0.0,1.1102230246251565e-16,True,
+token_mixer,42,on,label_exact_and_prob_vs_v13_archive,0.0,1.1102230246251565e-16,True,
+token_mixer,71,on,label_exact_and_prob_vs_v13_archive,0.0,1.1102230246251565e-16,True,
+token_mixer,13,off,aggregates_within_0.01pt_vs_v13_archive,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+token_mixer,42,off,aggregates_within_0.01pt_vs_v13_archive,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+token_mixer,71,off,aggregates_within_0.01pt_vs_v13_archive,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+lcca,13,on,aggregates_within_0.01pt_vs_v9_table,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+lcca,42,on,aggregates_within_0.01pt_vs_v9_table,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+lcca,71,on,aggregates_within_0.01pt_vs_v9_table,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+mlp,13,on,aggregates_within_0.01pt_vs_v9_table,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+mlp,42,on,aggregates_within_0.01pt_vs_v9_table,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+mlp,71,on,aggregates_within_0.01pt_vs_v9_table,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+token_mixer,13,on,aggregates_within_0.01pt_vs_v13_table,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+token_mixer,42,on,aggregates_within_0.01pt_vs_v13_table,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+token_mixer,71,on,aggregates_within_0.01pt_vs_v13_table,,,True,"{""accuracy"": 0.0, ""balanced_accuracy"": 0.0, ""macro_f1"": 0.0}"
+lcca,13,on-off,A_plus_B_equals_archived_on_minus_off,,,True,"{""gap_dev"": 0.0}"
+lcca,42,on-off,A_plus_B_equals_archived_on_minus_off,,,True,"{""gap_dev"": 0.0}"
+lcca,71,on-off,A_plus_B_equals_archived_on_minus_off,,,True,"{""gap_dev"": 0.0}"
+mlp,13,on-off,A_plus_B_equals_archived_on_minus_off,,,True,"{""gap_dev"": 0.0}"
+mlp,42,on-off,A_plus_B_equals_archived_on_minus_off,,,True,"{""gap_dev"": 0.0}"
+mlp,71,on-off,A_plus_B_equals_archived_on_minus_off,,,True,"{""gap_dev"": 0.0}"
+token_mixer,13,on-off,A_plus_B_equals_archived_on_minus_off,,,True,"{""gap_dev"": 3.552713678800501e-15}"
+token_mixer,42,on-off,A_plus_B_equals_archived_on_minus_off,,,True,"{""gap_dev"": 3.552713678800501e-15}"
+token_mixer,71,on-off,A_plus_B_equals_archived_on_minus_off,,,True,"{""gap_dev"": 0.0}"

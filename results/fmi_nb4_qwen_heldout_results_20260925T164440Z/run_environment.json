@@ -1,0 +1,82 @@
+{
+  "notebook": "NB-4 Q-HELDOUT-1",
+  "manifest": "FMI_manifests_and_decision_rules_v1_2.md / Part B (Q-HELDOUT-1)",
+  "manifest_lock_commit": "",
+  "gate_override_annotated": true,
+  "gate_strict_pass": false,
+  "override_rows": [
+    {
+      "cell": "native_frozen",
+      "seed": 42,
+      "state": "native",
+      "label_mismatches": 6,
+      "max_abs_logit_dev": 0.25,
+      "override_limits": "(0.02, 0.5)"
+    },
+    {
+      "cell": "attention_frozen",
+      "seed": 42,
+      "state": "on",
+      "label_mismatches": 11,
+      "max_abs_logit_dev": 0.375,
+      "override_limits": "(0.02, 0.5)"
+    },
+    {
+      "cell": "attention_frozen",
+      "seed": 42,
+      "state": "off",
+      "label_mismatches": 6,
+      "max_abs_logit_dev": 0.25,
+      "override_limits": "(0.02, 0.5)"
+    },
+    {
+      "cell": "mixer_frozen",
+      "seed": 42,
+      "state": "on",
+      "label_mismatches": 15,
+      "max_abs_logit_dev": 0.25,
+      "override_limits": "(0.02, 0.5)"
+    },
+    {
+      "cell": "mixer_frozen",
+      "seed": 42,
+      "state": "off",
+      "label_mismatches": 6,
+      "max_abs_logit_dev": 0.25,
+      "override_limits": "(0.02, 0.5)"
+    }
+  ],
+  "override_limits_default": [
+    0.01,
+    0.25
+  ],
+  "override_limits_t4": [
+    0.02,
+    0.5
+  ],
+  "nb3_report_utc": "2026-09-25T13:08:33.437828+00:00",
+  "handoff_zip_sha256": "35d2aa48b359ab97b5114269e38969ccfad4598220576bbb330f46ecb35914d3",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "amp_dtype": "torch.bfloat16",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "packages": {
+    "pandas": "2.2.3",
+    "huggingface-hub": "0.36.2",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.1",
+    "datasets": "4.0.0",
+    "accelerate": "1.10.1",
+    "scikit-learn": "1.6.1",
+    "safetensors": "0.8.0"
+  },
+  "python": "3.13.15",
+  "heldout_evaluated": true,
+  "single_look": true,
+  "bootstrap_seed": 20260925,
+  "bootstrap_replicates": 10000,
+  "passage_clusters": 2938,
+  "run_started_utc": "2026-09-25T16:07:18.529021+00:00",
+  "run_finished_utc": "2026-09-25T16:44:40.661566+00:00",
+  "active_seconds": 2242.1325951279996
+}

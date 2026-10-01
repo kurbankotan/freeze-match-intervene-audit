@@ -1,0 +1,37 @@
+cell,seed,state,rows,label_mismatches,max_abs_logit_dev,logit_drift_flag,pass,override_eligible,override_limits
+native_frozen,13,native,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+native_frozen,42,native,925,6.0,0.25,False,False,True,"(0.02, 0.5)"
+native_frozen,71,native,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_frozen,13,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_frozen,13,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_frozen,13,off==native,925,,,False,True,False,
+mixer_frozen,13,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_frozen,13,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_frozen,13,off==native,925,,,False,True,False,
+attention_frozen,42,on,925,11.0,0.375,True,False,True,"(0.02, 0.5)"
+attention_frozen,42,off,925,6.0,0.25,False,False,True,"(0.02, 0.5)"
+attention_frozen,42,off==native,925,,,False,True,False,
+mixer_frozen,42,on,925,15.0,0.25,False,False,True,"(0.02, 0.5)"
+mixer_frozen,42,off,925,6.0,0.25,False,False,True,"(0.02, 0.5)"
+mixer_frozen,42,off==native,925,,,False,True,False,
+attention_frozen,71,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_frozen,71,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_frozen,71,off==native,925,,,False,True,False,
+mixer_frozen,71,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_frozen,71,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_frozen,71,off==native,925,,,False,True,False,
+attention_trainable,13,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_trainable,13,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_trainable,13,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_trainable,13,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_trainable,42,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_trainable,42,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_trainable,42,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_trainable,42,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_trainable,71,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+attention_trainable,71,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_trainable,71,on,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+mixer_trainable,71,off,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+no_path,13,native,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+no_path,42,native,925,0.0,0.0,False,True,True,"(0.01, 0.25)"
+no_path,71,native,925,0.0,0.0,False,True,True,"(0.01, 0.25)"

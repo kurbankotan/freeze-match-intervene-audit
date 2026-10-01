@@ -1,0 +1,10 @@
+comparison,seed,first_only_correct,second_only_correct,p_exact
+lraa_on_vs_norm_only,13,49,33,0.09703091129729906
+lraa_norm_only_vs_off,13,2,0,0.5
+lraa_on_vs_no_adapter,13,79,71,0.567775487675328
+lraa_on_vs_norm_only,42,15,14,1.0
+lraa_norm_only_vs_off,42,0,0,1.0
+lraa_on_vs_no_adapter,42,112,85,0.06369102606287878
+lraa_on_vs_norm_only,71,862,152,5.762487225805805e-121
+lraa_norm_only_vs_off,71,83,72,0.4219388330129739
+lraa_on_vs_no_adapter,71,92,98,0.7169046430967033

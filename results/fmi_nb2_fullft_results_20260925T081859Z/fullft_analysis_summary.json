@@ -1,0 +1,101 @@
+{
+  "optimization_gate": {
+    "lraa": "VALID",
+    "none": "VALID"
+  },
+  "rerun_vs_archived_max_abs_deviation_points": 30.07341277967697,
+  "seed_level_summary_points": {
+    "A_FT": {
+      "mean": 10.454627453272684,
+      "sd": 17.419159781168194,
+      "ci95_low": -32.8169642677592,
+      "ci95_high": 53.72621917430457,
+      "positive_seeds": 3,
+      "seed_values": [
+        0.6784,
+        0.1196,
+        30.566
+      ]
+    },
+    "B_FT": {
+      "mean": 0.12767641646595487,
+      "sd": 0.18022959561769863,
+      "ci95_low": -0.3200387187983198,
+      "ci95_high": 0.5753915517302296,
+      "positive_seeds": 2,
+      "seed_values": [
+        0.0492,
+        0.0,
+        0.3338
+      ]
+    },
+    "on_minus_off_FT": {
+      "mean": 10.582303869738638,
+      "sd": 17.598088371359648,
+      "ci95_low": -33.133771109914875,
+      "ci95_high": 54.29837884939215,
+      "positive_seeds": 3,
+      "seed_values": [
+        0.7276,
+        0.1196,
+        30.8998
+      ]
+    },
+    "delta_A": {
+      "mean": 17.124074967297208,
+      "sd": 15.154698888591803,
+      "ci95_low": -20.522284053490292,
+      "ci95_high": 54.770433988084704,
+      "positive_seeds": 2,
+      "seed_values": [
+        27.9744,
+        23.5888,
+        -0.1909
+      ]
+    },
+    "delta_on_off": {
+      "mean": 17.03325339391287,
+      "sd": 15.44047827958616,
+      "ci95_low": -21.323020989311463,
+      "ci95_high": 55.389527777137204,
+      "positive_seeds": 2,
+      "seed_values": [
+        27.7706,
+        23.991,
+        -0.6618
+      ]
+    },
+    "D2_lraa_on_minus_no_adapter": {
+      "mean": 0.010902035042121838,
+      "sd": 0.5222307453214043,
+      "ci95_low": -1.2863910536950491,
+      "ci95_high": 1.3081951237792928,
+      "positive_seeds": 2,
+      "seed_values": [
+        0.2759,
+        0.3475,
+        -0.5907
+      ]
+    }
+  },
+  "cluster_bootstrap_95": {
+    "A_FT": {
+      "ci95_low": 9.903841894691427,
+      "ci95_high": 11.005106697895442
+    },
+    "B_FT": {
+      "ci95_low": -0.1780457828217285,
+      "ci95_high": 0.4334249771407969
+    },
+    "D2": {
+      "ci95_low": -0.5157865255214388,
+      "ci95_high": 0.5412649548816058
+    },
+    "delta_A": {
+      "ci95_low": 15.49922615310671,
+      "ci95_high": 18.78101020318071
+    }
+  },
+  "part_C1_case": "C.1 case 2: A_frozen > 0 and \u0394A interval includes zero \u2014 regime claim inconclusive at three seeds",
+  "part_C2_wording": "no measurable change at three seeds"
+}

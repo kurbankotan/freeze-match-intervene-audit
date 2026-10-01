@@ -1,0 +1,17 @@
+{
+  "heldout_rows": 3270,
+  "passage_groups": 2938,
+  "passage_overlap_with_development_partition": 721,
+  "gate_B73_zero_overlap": false,
+  "yes_rate": 0.6217125382262997,
+  "heldout_truncated_rows": 10,
+  "dataset": "google/boolq",
+  "revision": "35b264d03638db9f4ce671b711558bf7ff0f80d5",
+  "scoring": "two next-token logits at the last non-pad position",
+  "yes_id": [
+    9834
+  ],
+  "no_id": [
+    902
+  ]
+}

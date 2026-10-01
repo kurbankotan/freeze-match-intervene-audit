@@ -1,0 +1,14 @@
+{
+  "dataset": "WinoGrande 1.1 size l",
+  "archive_sha256": "3619ab104d8be2977b25c90ff420cb42d491707dcc75362a1e5d22bc082b7318",
+  "train_internal": 9210,
+  "val_internal": 1024,
+  "dev": 1267,
+  "dev_twin_clusters": 983,
+  "dev_gold_rate_option2": 0.5043409629044988,
+  "class_weight": [
+    1.0,
+    1.0
+  ],
+  "smoke_test": false
+}

@@ -1,0 +1,68 @@
+{
+  "bootstrap_seed": 20260924,
+  "replicates": 10000,
+  "unit": "passage cluster (sha256 of passage), all rows and all seeds/states resampled together",
+  "n_clusters": 2938,
+  "results": {
+    "lcca": {
+      "A": {
+        "point_seed_mean": 27.578702420569886,
+        "ci95_low": 25.948603935937786,
+        "ci95_high": 29.257996878973383,
+        "replicates_used": 10000
+      },
+      "B": {
+        "point_seed_mean": 0.03685484308161335,
+        "ci95_low": -0.5155718972591685,
+        "ci95_high": 0.5978794995747003,
+        "replicates_used": 10000
+      },
+      "share": {
+        "point_seed_mean": 0.997758254471225,
+        "ci95_low": 0.9785339854575489,
+        "ci95_high": 1.0189813349121508,
+        "replicates_used": 10000
+      }
+    },
+    "mlp": {
+      "A": {
+        "point_seed_mean": 8.668622273049786,
+        "ci95_low": 7.476795207919823,
+        "ci95_high": 9.871814797488751,
+        "replicates_used": 10000
+      },
+      "B": {
+        "point_seed_mean": 0.1810002912069398,
+        "ci95_low": -0.11456301487871035,
+        "ci95_high": 0.47947311349576893,
+        "replicates_used": 10000
+      },
+      "share": {
+        "point_seed_mean": 1.016557730570877,
+        "ci95_low": 0.9465032881270535,
+        "ci95_high": 1.013394533244866,
+        "replicates_used": 10000
+      }
+    },
+    "token_mixer": {
+      "A": {
+        "point_seed_mean": 19.10755609776335,
+        "ci95_low": 17.446686966957206,
+        "ci95_high": 20.750911598662437,
+        "replicates_used": 10000
+      },
+      "B": {
+        "point_seed_mean": -0.164677061839915,
+        "ci95_low": -0.5593903902871538,
+        "ci95_high": 0.2288761571430569,
+        "replicates_used": 10000
+      },
+      "share": {
+        "point_seed_mean": 1.0113663376928657,
+        "ci95_low": 0.9880490152124438,
+        "ci95_high": 1.0297316762377515,
+        "replicates_used": 10000
+      }
+    }
+  }
+}

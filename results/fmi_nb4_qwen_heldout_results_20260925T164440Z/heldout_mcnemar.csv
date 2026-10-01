@@ -1,0 +1,13 @@
+cell,seed,comparison,on_only_correct,off_only_correct,p_exact
+attention_frozen,13,on_vs_off,295,142,2.0359860177276098e-13
+attention_trainable,13,on_vs_off,15,14,1.0
+attention_frozen,42,on_vs_off,333,170,3.172096756965939e-13
+attention_trainable,42,on_vs_off,1,3,0.625
+attention_frozen,71,on_vs_off,339,166,1.0766481467422303e-14
+attention_trainable,71,on_vs_off,2,1,1.0
+mixer_frozen,13,on_vs_off,367,190,5.452491569251666e-14
+mixer_trainable,13,on_vs_off,4,3,1.0
+mixer_frozen,42,on_vs_off,370,188,1.066815328342254e-14
+mixer_trainable,42,on_vs_off,0,0,1.0
+mixer_frozen,71,on_vs_off,361,173,2.896599970807649e-16
+mixer_trainable,71,on_vs_off,0,0,1.0

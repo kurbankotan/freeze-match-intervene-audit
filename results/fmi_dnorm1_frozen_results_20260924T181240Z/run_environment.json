@@ -1,0 +1,42 @@
+{
+  "notebook": "NB-1 D-NORM-1 frozen decomposition",
+  "manifest": "FMI_manifests_and_decision_rules_v1_2.md / Part A (D-NORM-1)",
+  "manifest_lock_commit": "",
+  "repository_commit": "d33722b1f0ea36dd3296656a8050bb3eeed0122f",
+  "archive_hashes": {
+    "checkpoint_manifest.csv": "3e6c2073751509068eacf5fa25e4f52000bf327abcf7196d5e69a7406bb969a5",
+    "checkpoint_manifest_sha256.csv": "0c4c4a4a40413fbba7f8281387045c49227ac4bc6b8ecac9676d965f1d98d3ea",
+    "table_run_results.csv": "808843e4d1c67fc53a39c73e6ee6878b0c09d93de0b8689b30407fe235fe889c",
+    "adapter_on_off_predictions.csv": "90ed468eb0f5fa520346ff0a3633f2e384853ff57d26d948c90a07c5a30fb2f0",
+    "heldout_predictions.csv": "83304387bb0d1e0f6d8bc4c5bd409e5f304bf24b934f91d89b0ba4a88e54dea5",
+    "control_run_results.csv": "04a9aaead2923b18d978f4691cc5aa4907af9ad83be2db7f4eb8f038ed439552"
+  },
+  "training_performed": false,
+  "heldout_rows": 3270,
+  "passage_clusters": 2938,
+  "seeds": [
+    13,
+    42,
+    71
+  ],
+  "states": [
+    "on",
+    "norm_only",
+    "off"
+  ],
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "transformers": "4.57.6",
+  "datasets": "3.2.0",
+  "pass_A_dtype": "torch.bfloat16",
+  "pass_B_dtype": "torch.bfloat16",
+  "padding_pass_A": "dynamic",
+  "padding_pass_B": "max_length",
+  "bootstrap_seed": 20260924,
+  "bootstrap_replicates": 10000,
+  "gates_pass": true,
+  "run_started_utc": "2026-09-24T17:41:42.259271+00:00",
+  "run_finished_utc": "2026-09-24T18:12:40.022525+00:00",
+  "active_seconds": 1857.763321685
+}

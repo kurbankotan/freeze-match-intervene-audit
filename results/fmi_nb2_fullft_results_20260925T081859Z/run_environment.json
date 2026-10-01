@@ -1,0 +1,20 @@
+{
+  "notebook": "NB-2 FT-RERUN-1 + D2",
+  "manifest": "FMI_manifests_and_decision_rules_v1_2.md / Part A.8 (FT-RERUN-1) + D2",
+  "manifest_lock_commit": "",
+  "repository_commit": "d33722b1f0ea36dd3296656a8050bb3eeed0122f",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "amp_dtype": "torch.bfloat16",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "transformers": "4.57.6",
+  "datasets": "3.2.0",
+  "gradient_checkpointing": true,
+  "full_states_on_drive": "/content/drive/MyDrive/FMI/NB2/full_states",
+  "bootstrap_seed": 20260924,
+  "bootstrap_replicates": 10000,
+  "nb1_source": "fmi_dnorm1_frozen_results_20260924T181240Z.zip",
+  "run_started_utc": "2026-09-25T05:10:29.873689+00:00",
+  "run_finished_utc": "2026-09-25T08:18:59.752494+00:00",
+  "session_active_seconds": 11309.878855951001
+}

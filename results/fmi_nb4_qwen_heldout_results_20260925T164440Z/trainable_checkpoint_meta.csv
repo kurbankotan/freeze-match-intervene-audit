@@ -1,0 +1,10 @@
+cell,seed,protocol_id,epoch,score
+attention_trainable,13,fpda-wave4b11-qwen17-corrected-trainable-attention-v1,1,0.8630698470735034
+mixer_trainable,13,fpda-wave4b12-qwen17-corrected-trainable-mixer-v1,1,0.8572516758074344
+attention_trainable,42,fpda-wave4b15-qwen17-corrected-trainable-attention-seed42-v1,3,0.8529714750007255
+mixer_trainable,42,fpda-wave4b16-qwen17-corrected-trainable-mixer-seed42-v1,3,0.8576385866148206
+attention_trainable,71,fpda-wave4b17-qwen17-corrected-trainable-attention-seed71-v1,3,0.8502074809204607
+mixer_trainable,71,fpda-wave4b18-qwen17-corrected-trainable-mixer-seed71-v1,3,0.8591765570741805
+no_path,13,fpda-wave4b8-qwen17-trainable-no-path-v1,1,0.8619405511544451
+no_path,42,fpda-wave4b19-qwen17-trainable-no-path-seed42-v1,3,0.8541757348887148
+no_path,71,fpda-wave4b20-qwen17-trainable-no-path-seed71-v1,3,0.8622089705270692

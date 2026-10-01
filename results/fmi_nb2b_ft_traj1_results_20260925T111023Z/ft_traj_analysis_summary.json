@@ -1,0 +1,119 @@
+{
+  "optimization_gate": {
+    "all_seed_best_internal_val_BA_ge_0.60": true,
+    "all_seed_enabled_heldout_BA_above_chance": true,
+    "mean_enabled_heldout_BA_exceeds_frozen_head_only": true,
+    "status": "VALID"
+  },
+  "extended_replication_t4": {
+    "A_FT": {
+      "n_seeds": 5,
+      "mean": 6.419017496672723,
+      "sd": 13.501361947191933,
+      "ci95_low": -10.345137559873805,
+      "ci95_high": 23.18317255321925,
+      "values": [
+        0.678,
+        0.12,
+        30.566,
+        0.636,
+        0.095
+      ]
+    },
+    "on_minus_off": {
+      "n_seeds": 5,
+      "mean": 6.48753927217881,
+      "sd": 13.649624035190119,
+      "ci95_low": -10.460707481333582,
+      "ci95_high": 23.435786025691204,
+      "values": [
+        0.728,
+        0.12,
+        30.9,
+        0.58,
+        0.111
+      ]
+    },
+    "enabled_BA": {
+      "n_seeds": 5,
+      "mean": 88.47308814424566,
+      "sd": 0.2090308282918504,
+      "ci95_low": 88.21354209024096,
+      "ci95_high": 88.73263419825037,
+      "values": [
+        88.715,
+        88.252,
+        88.438,
+        88.299,
+        88.661
+      ]
+    }
+  },
+  "trajectories": [
+    {
+      "source": "archived control",
+      "seed": 13,
+      "selected_epoch": 2,
+      "enabled_BA": 88.98987244022535,
+      "A_FT": NaN,
+      "on_minus_off": 0.9523341820352158
+    },
+    {
+      "source": "archived control",
+      "seed": 42,
+      "selected_epoch": 3,
+      "enabled_BA": 88.55379766591737,
+      "A_FT": NaN,
+      "on_minus_off": 0.37618979641095507
+    },
+    {
+      "source": "archived control",
+      "seed": 71,
+      "selected_epoch": 2,
+      "enabled_BA": 88.70329140722143,
+      "A_FT": NaN,
+      "on_minus_off": 1.0917874472974347
+    },
+    {
+      "source": "NB-2 rerun",
+      "seed": 13,
+      "selected_epoch": 2,
+      "enabled_BA": 88.71547915338707,
+      "A_FT": 0.6783783020739946,
+      "on_minus_off": 0.7275666936135821
+    },
+    {
+      "source": "NB-2 rerun",
+      "seed": 42,
+      "selected_epoch": 3,
+      "enabled_BA": 88.25160916025435,
+      "A_FT": 0.11955125235552089,
+      "on_minus_off": 0.11955125235552089
+    },
+    {
+      "source": "NB-2 rerun",
+      "seed": 71,
+      "selected_epoch": 3,
+      "enabled_BA": 88.43788484349383,
+      "A_FT": 30.565952805388534,
+      "on_minus_off": 30.89979366324681
+    },
+    {
+      "source": "FT-TRAJ-1",
+      "seed": 7595,
+      "selected_epoch": 2,
+      "enabled_BA": 88.29908768854722,
+      "A_FT": 0.6364667703983713,
+      "on_minus_off": 0.5802202224333257
+    },
+    {
+      "source": "FT-TRAJ-1",
+      "seed": 1676,
+      "selected_epoch": 1,
+      "enabled_BA": 88.6613798755458,
+      "A_FT": 0.09473835314719281,
+      "on_minus_off": 0.11056452924481164
+    }
+  ],
+  "note": "Descriptive; no threshold defines dependence. The distribution of A_FT across trajectories is reported in full, with enabled BA alongside."
+}
