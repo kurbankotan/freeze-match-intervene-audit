@@ -1,0 +1,4 @@
+split,n,yes_rate,unique_passages
+train,8351,0.6230391569871871,7023
+internal_validation,1076,0.6236059479553904,904
+official_validation_evaluation,3270,0.6217125382262997,2938

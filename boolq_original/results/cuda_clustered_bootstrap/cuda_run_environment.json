@@ -1,0 +1,9 @@
+{
+  "base_model_directory": "/content/drive/MyDrive/Colab Notebooks/NLP Modeller/deberta-v3-large",
+  "artifact_zip": "/content/lcca_v9_reproduction_checkpoints_contrast_artifacts.zip",
+  "gpu": "Tesla T4",
+  "amp_dtype": "torch.bfloat16",
+  "transformers_version": "4.57.6",
+  "torch_version": "2.11.0+cu128",
+  "cuda_parity_passed": true
+}

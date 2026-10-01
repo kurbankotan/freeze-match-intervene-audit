@@ -1,0 +1,7 @@
+comparison,seed,a_only_correct,b_only_correct,p_exact
+lraa_minus_token_mixer,13,149,124,0.14621329780629644
+lraa_minus_token_mixer,42,172,106,9.026609445577945e-05
+lraa_minus_token_mixer,71,122,113,0.6018606672387032
+lraa_minus_lora_r11,13,107,242,3.751590418402376e-13
+lraa_minus_lora_r11,42,107,213,3.162789414913375e-09
+lraa_minus_lora_r11,71,105,259,3.831898261706435e-16

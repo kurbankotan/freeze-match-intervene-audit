@@ -1,0 +1,16 @@
+{
+  "purpose": "Post-result sensitivity calculation for interpreting the clustered contrast comparison; not a prospective sample-size calculation.",
+  "analysis_unit": "81 unique contrast UID clusters",
+  "alpha_two_sided": 0.05,
+  "target_power": 0.8,
+  "z_alpha_over_2": 1.959964,
+  "z_power": 0.841621,
+  "observed_gain_percentage_points": 6.995885,
+  "cluster_mean_difference_sd_percentage_points": 42.070063710802735,
+  "normal_approximation_mde_percentage_points": 13.095873271247699,
+  "item_majority_discordant_clusters": 15,
+  "mcnemar_normal_approximation_mde_percentage_points": 13.395669195042599,
+  "displayed_mde_range_percentage_points": "13.1-13.4",
+  "interpretation": "The 81-item audit was underpowered for the observed approximately 7.0-point gain. Q1 failure is inconclusive and is not evidence of equivalence.",
+  "source_file": "contrast_item_clusters_cuda.csv"
+}

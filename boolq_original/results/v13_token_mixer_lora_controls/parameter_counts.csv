@@ -1,0 +1,4 @@
+model,adapter_params,scorer_params,total_trainable,pct_vs_lraa
+lraa_archived,1050625,1025,1051650,0.0
+token_mixer,1050625,1025,1051650,0.0
+lora_r11,1081344,1025,1082369,2.921028859411412

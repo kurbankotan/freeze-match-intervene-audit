@@ -1,0 +1,22 @@
+{
+  "experiment": "lraa_v11_matched_full_finetuning_control",
+  "only_changed_factor_relative_to_v9": "encoder_frozen: true -> false",
+  "encoder_frozen": false,
+  "seeds": [
+    13,
+    42,
+    71
+  ],
+  "epochs": 3,
+  "max_length": 512,
+  "latent_rank": 256,
+  "latent_heads": 8,
+  "batch_size": 2,
+  "evaluation_batch_size": 4,
+  "gradient_accumulation_steps": 8,
+  "learning_rate_all_trainable_parameters": 0.0002,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "passage_grouped_split": true,
+  "input_serialization": "tokenizer(question_prefix_plus_option, passage)"
+}

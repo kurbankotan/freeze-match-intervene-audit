@@ -1,0 +1,36 @@
+{
+  "cuda_parity_passed": true,
+  "gpu": "Tesla T4",
+  "amp_dtype": "torch.bfloat16",
+  "analysis_unit": "81 contrast UID clusters with three paired seed repeats retained",
+  "point_gain_percentage_points": 6.995885,
+  "per_seed_gain_percentage_points": {
+    "13": 4.938272,
+    "42": 8.641975,
+    "71": 7.407407
+  },
+  "item_cluster_bootstrap": {
+    "replicates": 100000,
+    "ci_95_percentage_points": [
+      -2.057613,
+      16.460905
+    ],
+    "probability_gain_le_zero": 0.06995
+  },
+  "two_way_item_seed_bootstrap_sensitivity": {
+    "replicates": 100000,
+    "ci_95_percentage_points": [
+      -2.469136,
+      16.460905
+    ],
+    "probability_gain_le_zero": 0.08034,
+    "caveat": "Only three seeds are available; seed-population uncertainty is coarsely estimated."
+  },
+  "item_majority_mcnemar": {
+    "lcca_only_correct_clusters": 11,
+    "mlp_only_correct_clusters": 4,
+    "exact_two_sided_p": 0.11846924,
+    "lcca_majority_consistency_percent": 77.777778,
+    "mlp_majority_consistency_percent": 69.135802
+  }
+}

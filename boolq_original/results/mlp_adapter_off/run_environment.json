@@ -1,0 +1,20 @@
+{
+  "analysis": "V9 held-out MLP/LRAA adapter-on versus adapter-off audit",
+  "training_performed": false,
+  "heldout_examples": 3270,
+  "seeds": [
+    13,
+    42,
+    71
+  ],
+  "base_model_directory": "/content/drive/MyDrive/Colab Notebooks/NLP Modeller/deberta-v3-large",
+  "input_artifact_zip": "/content/adapter-contribution-reproducibility_GitHub_upload.zip",
+  "input_checkpoint_manifest_sha256": "3e6c2073751509068eacf5fa25e4f52000bf327abcf7196d5e69a7406bb969a5",
+  "gpu": "Tesla T4",
+  "amp_dtype": "torch.bfloat16",
+  "torch_version": "2.11.0+cu128",
+  "transformers_version": "4.57.6",
+  "datasets_version": "3.2.0",
+  "enabled_condition_parity_passed": true,
+  "parity_tolerance_points": 0.05
+}

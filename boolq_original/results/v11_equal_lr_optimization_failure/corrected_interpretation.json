@@ -1,0 +1,12 @@
+{
+  "archival_status": "INVALID_OPTIMIZATION",
+  "nominal_original_decision": "PASS",
+  "nominal_decision_is_valid_evidence": false,
+  "mean_enabled_accuracy_percent": 55.096839959225285,
+  "mean_enabled_balanced_accuracy_percent": 50.7412455995874,
+  "mean_enabled_macro_f1_percent": 50.102393268689994,
+  "mean_adapter_on_minus_off_balanced_accuracy_points": 0.6635130956305302,
+  "diagnostic": "Training losses remained near log(2), training accuracies remained near 50%, and enabled held-out balanced accuracy remained near chance.",
+  "interpretation": "The run cannot identify adapter contribution because the trainable-backbone model did not learn the task.",
+  "successor_control": "lraa_v12_validated_full_finetuning_control_colab.ipynb"
+}

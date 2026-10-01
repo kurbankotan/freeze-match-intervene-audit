@@ -1,0 +1,31 @@
+{
+  "experiment": "lcca_v9_exact_reproduction_checkpoints_and_contrast",
+  "base_encoder": "/content/drive/MyDrive/Colab Notebooks/NLP Modeller/deberta-v3-large",
+  "encoder_frozen": true,
+  "seeds": [
+    13,
+    42,
+    71
+  ],
+  "epochs": 3,
+  "max_length": 512,
+  "batch_size": 2,
+  "gradient_accumulation_steps": 8,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "latent_rank": 256,
+  "latent_heads": 8,
+  "mlp_bottleneck": 512,
+  "adapter_parameters_each": 1050625,
+  "passage_grouped_split": true,
+  "train_examples": 8351,
+  "validation_examples": 1076,
+  "heldout_examples": 3270,
+  "reproduction_tolerance_points": 0.5,
+  "reproduction_passed": true,
+  "contrast_pairs": 81,
+  "registered_models": 9,
+  "input_serialization": "tokenizer(question_prefix_plus_option, passage)",
+  "metric_source_sha256": "f91441af5962bcc69b0c77e2e76ec9bfd48797646244701b2db9c267e214b328"
+}

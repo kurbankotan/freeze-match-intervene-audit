@@ -1,0 +1,14 @@
+{
+  "estimand": "frozen V9 minus optimization-validated full-fine-tuning adapter-on/off balanced-accuracy loss",
+  "mean_points": 26.808786788403626,
+  "seed_sd_points": 2.780147600188325,
+  "ci95_low_points": 19.9025172902839,
+  "ci95_high_points": 33.71505628652335,
+  "positive_seeds": 3,
+  "optimization_gate_status": "VALID",
+  "contrast_rule": "positive in all three seeds and paired seed CI lower bound above zero",
+  "contrast_rule_passed_without_gate": true,
+  "support_rule": "optimization gate VALID and contrast positive in all three seeds with paired seed CI lower bound above zero",
+  "support_rule_passed": true,
+  "overall_decision": "PASS"
+}

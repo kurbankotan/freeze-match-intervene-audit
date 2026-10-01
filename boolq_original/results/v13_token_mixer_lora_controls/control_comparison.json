@@ -1,0 +1,34 @@
+{
+  "prespecified_question": "Does LRAA exceed the parameter-matched non-attention token mixer?",
+  "rule": "PASS only if mean balanced-accuracy advantage is at least 0.5 percentage points, LRAA wins all three seeds, and the seed-level 95% t interval excludes zero.",
+  "decision": "FAIL",
+  "interpretation_if_fail": "The result does not isolate attention topology from generic token mixing.",
+  "comparisons": [
+    {
+      "comparison": "lraa_minus_token_mixer",
+      "metric": "balanced_accuracy",
+      "seed_differences": [
+        0.0037746225278061374,
+        0.016706954490995463,
+        0.006011759882711298
+      ],
+      "mean_difference": 0.008831112300504299,
+      "ci95_low": -0.008338729945158179,
+      "ci95_high": 0.026000954546166778,
+      "all_seeds_lraa_higher": true
+    },
+    {
+      "comparison": "lraa_minus_lora_r11",
+      "metric": "balanced_accuracy",
+      "seed_differences": [
+        -0.04206482290389646,
+        -0.03350815028186904,
+        -0.04119855846599019
+      ],
+      "mean_difference": -0.03892384388391856,
+      "ci95_low": -0.05062434516289655,
+      "ci95_high": -0.027223342604940574,
+      "all_seeds_lraa_higher": false
+    }
+  ]
+}

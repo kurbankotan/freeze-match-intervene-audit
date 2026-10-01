@@ -1,0 +1,46 @@
+{
+  "n_items": 81,
+  "independent_pre_adjudication_agreement": {
+    "answer_o": {
+      "n": 81,
+      "agreement": 0.9382716049382716,
+      "expected_agreement": 0.6096631611034903,
+      "cohen_kappa": 0.8418586489652479
+    },
+    "answer_a": {
+      "n": 81,
+      "agreement": 0.9876543209876543,
+      "expected_agreement": 0.6380124980948025,
+      "cohen_kappa": 0.9658947368421051
+    },
+    "answer_b": {
+      "n": 81,
+      "agreement": 0.9382716049382716,
+      "expected_agreement": 0.6101204084743179,
+      "cohen_kappa": 0.841673182173573
+    },
+    "relation_a": {
+      "n": 81,
+      "agreement": 0.9506172839506173,
+      "expected_agreement": 0.9506172839506173,
+      "cohen_kappa": 0.0
+    },
+    "relation_b": {
+      "n": 81,
+      "agreement": 0.8888888888888888,
+      "expected_agreement": 0.8926992836457857,
+      "cohen_kappa": -0.03551136363636365
+    },
+    "item_acceptable": {
+      "n": 81,
+      "agreement": 0.7407407407407407,
+      "expected_agreement": 0.6099679926840421,
+      "cohen_kappa": 0.33528722157092594
+    }
+  },
+  "reviewer_1_expected_pattern_valid_items": 58,
+  "reviewer_2_expected_pattern_valid_items": 57,
+  "both_reviewers_expected_pattern_valid_items": 47,
+  "items_requiring_adjudication": 34,
+  "note": "Cohen kappa is computed before adjudication. Final consensus validity must be added only after human adjudication."
+}

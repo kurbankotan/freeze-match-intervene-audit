@@ -1,0 +1,9 @@
+{
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "amp_dtype": "torch.bfloat16",
+  "torch_version": "2.11.0+cu128",
+  "transformers_version": "4.57.6",
+  "datasets_version": "3.2.0",
+  "pandas_version": "2.2.3",
+  "gradient_checkpointing_use_reentrant": false
+}

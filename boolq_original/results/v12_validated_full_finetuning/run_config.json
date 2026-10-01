@@ -1,0 +1,33 @@
+{
+  "experiment": "lraa_v12_validated_full_finetuning_control",
+  "causal_factor_relative_to_v9": "encoder_frozen: true -> false",
+  "encoder_lr_provenance": "8e-6 reused from earlier DeBERTa-v3-large full-backbone experiments; not selected using V11 held-out results",
+  "encoder_frozen": false,
+  "seeds": [
+    13,
+    42,
+    71
+  ],
+  "epochs": 3,
+  "max_length": 512,
+  "latent_rank": 256,
+  "latent_heads": 8,
+  "batch_size": 2,
+  "evaluation_batch_size": 4,
+  "gradient_accumulation_steps": 8,
+  "encoder_learning_rate": 8e-06,
+  "adapter_scorer_learning_rate": 0.0002,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "passage_grouped_split": true,
+  "input_serialization": "tokenizer(question_prefix_plus_option, passage)",
+  "train_examples": 8351,
+  "internal_validation_examples": 1076,
+  "heldout_examples": 3270,
+  "adapter_parameters": 1050625,
+  "scorer_parameters": 1025,
+  "full_encoder_checkpoints_in_download_zip": false,
+  "optimization_validity_status": "VALID",
+  "training_regime_support_rule_passed": true,
+  "overall_decision": "PASS"
+}

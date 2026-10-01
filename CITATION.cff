@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the manuscript below."
+title: "freeze-match-intervene-audit: code and results for 'Full Fine-Tuning Can Obscure Adapter Contribution'"
+authors:
+  - family-names: Kotan
+    given-names: Kurban
+    affiliation: "Manisa Celal Bayar University"
+repository-code: "https://github.com/kurbankotan/freeze-match-intervene-audit"
+license: MIT
+version: "1.0"
+date-released: "2026-10-01"
+preferred-citation:
+  type: article
+  title: "Full Fine-Tuning Can Obscure Adapter Contribution: A Freeze–Match–Intervene Audit of a Low-Rank Attention Adapter"
+  authors:
+    - family-names: Kotan
+      given-names: Kurban
+  year: 2026
+  notes: "Manuscript under review."

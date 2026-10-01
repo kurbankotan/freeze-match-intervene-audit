@@ -1,0 +1,817 @@
+{
+  "n_pairs": 81,
+  "per_run": {
+    "head/seed13": {
+      "n_pairs": 81,
+      "accuracy": {
+        "o": 59.26,
+        "a": 70.37,
+        "b": 62.96
+      },
+      "balanced_accuracy": {
+        "o": 55.13,
+        "a": 66.04,
+        "b": 66.68
+      },
+      "predicted_yes_rate": {
+        "o": 60.49,
+        "a": 66.67,
+        "b": 48.15
+      },
+      "edit_cost": -11.11,
+      "polarity_cost": 7.41,
+      "polarity_cost_balanced": -0.64,
+      "contrast_consistency": 33.33,
+      "chance_consistency": 25.0,
+      "constant_label_consistency": 0.0,
+      "flip_rate": 33.33,
+      "conditional_negation_accuracy": 47.37,
+      "margin_profile_arm_b": {
+        "correct": {
+          "n": 51,
+          "mean_margin": 0.0169,
+          "frac_above_0.9": 0.0
+        },
+        "incorrect": {
+          "n": 30,
+          "mean_margin": 0.0129,
+          "frac_above_0.9": 0.0
+        }
+      },
+      "arm_b_by_cue_family": {
+        "affixal": {
+          "n": 15,
+          "acc": 73.33
+        },
+        "antonym": {
+          "n": 3,
+          "acc": 33.33
+        },
+        "prepositional": {
+          "n": 11,
+          "acc": 63.64
+        },
+        "quantifier": {
+          "n": 14,
+          "acc": 57.14
+        },
+        "scope": {
+          "n": 23,
+          "acc": 56.52
+        },
+        "verbal": {
+          "n": 15,
+          "acc": 73.33
+        }
+      },
+      "arm_b_by_direction": {
+        "no->yes": {
+          "n": 19,
+          "acc": 73.68
+        },
+        "yes->no": {
+          "n": 62,
+          "acc": 59.68
+        }
+      }
+    },
+    "head/seed42": {
+      "n_pairs": 81,
+      "accuracy": {
+        "o": 58.02,
+        "a": 72.84,
+        "b": 59.26
+      },
+      "balanced_accuracy": {
+        "o": 54.33,
+        "a": 69.48,
+        "b": 62.44
+      },
+      "predicted_yes_rate": {
+        "o": 59.26,
+        "a": 66.67,
+        "b": 49.38
+      },
+      "edit_cost": -14.82,
+      "polarity_cost": 13.58,
+      "polarity_cost_balanced": 7.04,
+      "contrast_consistency": 34.57,
+      "chance_consistency": 25.0,
+      "constant_label_consistency": 0.0,
+      "flip_rate": 37.04,
+      "conditional_negation_accuracy": 47.46,
+      "margin_profile_arm_b": {
+        "correct": {
+          "n": 48,
+          "mean_margin": 0.0292,
+          "frac_above_0.9": 0.0
+        },
+        "incorrect": {
+          "n": 33,
+          "mean_margin": 0.0191,
+          "frac_above_0.9": 0.0
+        }
+      },
+      "arm_b_by_cue_family": {
+        "affixal": {
+          "n": 15,
+          "acc": 73.33
+        },
+        "antonym": {
+          "n": 3,
+          "acc": 33.33
+        },
+        "prepositional": {
+          "n": 11,
+          "acc": 54.55
+        },
+        "quantifier": {
+          "n": 14,
+          "acc": 50.0
+        },
+        "scope": {
+          "n": 23,
+          "acc": 52.17
+        },
+        "verbal": {
+          "n": 15,
+          "acc": 73.33
+        }
+      },
+      "arm_b_by_direction": {
+        "no->yes": {
+          "n": 19,
+          "acc": 68.42
+        },
+        "yes->no": {
+          "n": 62,
+          "acc": 56.45
+        }
+      }
+    },
+    "head/seed71": {
+      "n_pairs": 81,
+      "accuracy": {
+        "o": 60.49,
+        "a": 71.6,
+        "b": 60.49
+      },
+      "balanced_accuracy": {
+        "o": 55.94,
+        "a": 68.67,
+        "b": 63.24
+      },
+      "predicted_yes_rate": {
+        "o": 61.73,
+        "a": 65.43,
+        "b": 48.15
+      },
+      "edit_cost": -11.11,
+      "polarity_cost": 11.11,
+      "polarity_cost_balanced": 5.43,
+      "contrast_consistency": 34.57,
+      "chance_consistency": 25.0,
+      "constant_label_consistency": 0.0,
+      "flip_rate": 37.04,
+      "conditional_negation_accuracy": 48.28,
+      "margin_profile_arm_b": {
+        "correct": {
+          "n": 49,
+          "mean_margin": 0.0186,
+          "frac_above_0.9": 0.0
+        },
+        "incorrect": {
+          "n": 32,
+          "mean_margin": 0.0115,
+          "frac_above_0.9": 0.0
+        }
+      },
+      "arm_b_by_cue_family": {
+        "affixal": {
+          "n": 15,
+          "acc": 66.67
+        },
+        "antonym": {
+          "n": 3,
+          "acc": 33.33
+        },
+        "prepositional": {
+          "n": 11,
+          "acc": 63.64
+        },
+        "quantifier": {
+          "n": 14,
+          "acc": 50.0
+        },
+        "scope": {
+          "n": 23,
+          "acc": 56.52
+        },
+        "verbal": {
+          "n": 15,
+          "acc": 73.33
+        }
+      },
+      "arm_b_by_direction": {
+        "no->yes": {
+          "n": 19,
+          "acc": 68.42
+        },
+        "yes->no": {
+          "n": 62,
+          "acc": 58.06
+        }
+      }
+    },
+    "lcca/seed13": {
+      "n_pairs": 81,
+      "accuracy": {
+        "o": 92.59,
+        "a": 93.83,
+        "b": 79.01
+      },
+      "balanced_accuracy": {
+        "o": 91.51,
+        "a": 94.14,
+        "b": 75.34
+      },
+      "predicted_yes_rate": {
+        "o": 74.07,
+        "a": 72.84,
+        "b": 29.63
+      },
+      "edit_cost": -1.24,
+      "polarity_cost": 14.82,
+      "polarity_cost_balanced": 18.8,
+      "contrast_consistency": 72.84,
+      "chance_consistency": 25.0,
+      "constant_label_consistency": 0.0,
+      "flip_rate": 72.84,
+      "conditional_negation_accuracy": 77.63,
+      "margin_profile_arm_b": {
+        "correct": {
+          "n": 64,
+          "mean_margin": 0.7359,
+          "frac_above_0.9": 0.4375
+        },
+        "incorrect": {
+          "n": 17,
+          "mean_margin": 0.4485,
+          "frac_above_0.9": 0.0588
+        }
+      },
+      "arm_b_by_cue_family": {
+        "affixal": {
+          "n": 15,
+          "acc": 80.0
+        },
+        "antonym": {
+          "n": 3,
+          "acc": 100.0
+        },
+        "prepositional": {
+          "n": 11,
+          "acc": 81.82
+        },
+        "quantifier": {
+          "n": 14,
+          "acc": 71.43
+        },
+        "scope": {
+          "n": 23,
+          "acc": 78.26
+        },
+        "verbal": {
+          "n": 15,
+          "acc": 80.0
+        }
+      },
+      "arm_b_by_direction": {
+        "no->yes": {
+          "n": 19,
+          "acc": 68.42
+        },
+        "yes->no": {
+          "n": 62,
+          "acc": 82.26
+        }
+      }
+    },
+    "lcca/seed42": {
+      "n_pairs": 81,
+      "accuracy": {
+        "o": 91.36,
+        "a": 95.06,
+        "b": 82.72
+      },
+      "balanced_accuracy": {
+        "o": 88.88,
+        "a": 94.95,
+        "b": 79.58
+      },
+      "predicted_yes_rate": {
+        "o": 75.31,
+        "a": 74.07,
+        "b": 28.4
+      },
+      "edit_cost": -3.7,
+      "polarity_cost": 12.34,
+      "polarity_cost_balanced": 15.37,
+      "contrast_consistency": 77.78,
+      "chance_consistency": 25.0,
+      "constant_label_consistency": 0.0,
+      "flip_rate": 77.78,
+      "conditional_negation_accuracy": 81.82,
+      "margin_profile_arm_b": {
+        "correct": {
+          "n": 67,
+          "mean_margin": 0.7651,
+          "frac_above_0.9": 0.4627
+        },
+        "incorrect": {
+          "n": 14,
+          "mean_margin": 0.5695,
+          "frac_above_0.9": 0.1429
+        }
+      },
+      "arm_b_by_cue_family": {
+        "affixal": {
+          "n": 15,
+          "acc": 73.33
+        },
+        "antonym": {
+          "n": 3,
+          "acc": 100.0
+        },
+        "prepositional": {
+          "n": 11,
+          "acc": 90.91
+        },
+        "quantifier": {
+          "n": 14,
+          "acc": 78.57
+        },
+        "scope": {
+          "n": 23,
+          "acc": 86.96
+        },
+        "verbal": {
+          "n": 15,
+          "acc": 80.0
+        }
+      },
+      "arm_b_by_direction": {
+        "no->yes": {
+          "n": 19,
+          "acc": 73.68
+        },
+        "yes->no": {
+          "n": 62,
+          "acc": 85.48
+        }
+      }
+    },
+    "lcca/seed71": {
+      "n_pairs": 81,
+      "accuracy": {
+        "o": 88.89,
+        "a": 95.06,
+        "b": 80.25
+      },
+      "balanced_accuracy": {
+        "o": 89.09,
+        "a": 94.95,
+        "b": 72.5
+      },
+      "predicted_yes_rate": {
+        "o": 70.37,
+        "a": 74.07,
+        "b": 23.46
+      },
+      "edit_cost": -6.17,
+      "polarity_cost": 14.81,
+      "polarity_cost_balanced": 22.45,
+      "contrast_consistency": 76.54,
+      "chance_consistency": 25.0,
+      "constant_label_consistency": 0.0,
+      "flip_rate": 77.78,
+      "conditional_negation_accuracy": 80.52,
+      "margin_profile_arm_b": {
+        "correct": {
+          "n": 65,
+          "mean_margin": 0.7974,
+          "frac_above_0.9": 0.4769
+        },
+        "incorrect": {
+          "n": 16,
+          "mean_margin": 0.4213,
+          "frac_above_0.9": 0.0625
+        }
+      },
+      "arm_b_by_cue_family": {
+        "affixal": {
+          "n": 15,
+          "acc": 66.67
+        },
+        "antonym": {
+          "n": 3,
+          "acc": 100.0
+        },
+        "prepositional": {
+          "n": 11,
+          "acc": 81.82
+        },
+        "quantifier": {
+          "n": 14,
+          "acc": 78.57
+        },
+        "scope": {
+          "n": 23,
+          "acc": 86.96
+        },
+        "verbal": {
+          "n": 15,
+          "acc": 80.0
+        }
+      },
+      "arm_b_by_direction": {
+        "no->yes": {
+          "n": 19,
+          "acc": 57.89
+        },
+        "yes->no": {
+          "n": 62,
+          "acc": 87.1
+        }
+      }
+    },
+    "mlp/seed13": {
+      "n_pairs": 81,
+      "accuracy": {
+        "o": 85.19,
+        "a": 92.59,
+        "b": 75.31
+      },
+      "balanced_accuracy": {
+        "o": 83.03,
+        "a": 91.51,
+        "b": 74.75
+      },
+      "predicted_yes_rate": {
+        "o": 71.6,
+        "a": 74.07,
+        "b": 35.8
+      },
+      "edit_cost": -7.4,
+      "polarity_cost": 17.28,
+      "polarity_cost_balanced": 16.76,
+      "contrast_consistency": 67.9,
+      "chance_consistency": 25.0,
+      "constant_label_consistency": 0.0,
+      "flip_rate": 67.9,
+      "conditional_negation_accuracy": 73.33,
+      "margin_profile_arm_b": {
+        "correct": {
+          "n": 61,
+          "mean_margin": 0.5061,
+          "frac_above_0.9": 0.1967
+        },
+        "incorrect": {
+          "n": 20,
+          "mean_margin": 0.2409,
+          "frac_above_0.9": 0.0
+        }
+      },
+      "arm_b_by_cue_family": {
+        "affixal": {
+          "n": 15,
+          "acc": 80.0
+        },
+        "antonym": {
+          "n": 3,
+          "acc": 100.0
+        },
+        "prepositional": {
+          "n": 11,
+          "acc": 90.91
+        },
+        "quantifier": {
+          "n": 14,
+          "acc": 50.0
+        },
+        "scope": {
+          "n": 23,
+          "acc": 78.26
+        },
+        "verbal": {
+          "n": 15,
+          "acc": 73.33
+        }
+      },
+      "arm_b_by_direction": {
+        "no->yes": {
+          "n": 19,
+          "acc": 73.68
+        },
+        "yes->no": {
+          "n": 62,
+          "acc": 75.81
+        }
+      }
+    },
+    "mlp/seed42": {
+      "n_pairs": 81,
+      "accuracy": {
+        "o": 85.19,
+        "a": 92.59,
+        "b": 76.54
+      },
+      "balanced_accuracy": {
+        "o": 83.03,
+        "a": 91.51,
+        "b": 75.55
+      },
+      "predicted_yes_rate": {
+        "o": 71.6,
+        "a": 74.07,
+        "b": 34.57
+      },
+      "edit_cost": -7.4,
+      "polarity_cost": 16.05,
+      "polarity_cost_balanced": 15.96,
+      "contrast_consistency": 69.14,
+      "chance_consistency": 25.0,
+      "constant_label_consistency": 0.0,
+      "flip_rate": 69.14,
+      "conditional_negation_accuracy": 74.67,
+      "margin_profile_arm_b": {
+        "correct": {
+          "n": 62,
+          "mean_margin": 0.4815,
+          "frac_above_0.9": 0.1613
+        },
+        "incorrect": {
+          "n": 19,
+          "mean_margin": 0.2425,
+          "frac_above_0.9": 0.0
+        }
+      },
+      "arm_b_by_cue_family": {
+        "affixal": {
+          "n": 15,
+          "acc": 80.0
+        },
+        "antonym": {
+          "n": 3,
+          "acc": 100.0
+        },
+        "prepositional": {
+          "n": 11,
+          "acc": 90.91
+        },
+        "quantifier": {
+          "n": 14,
+          "acc": 57.14
+        },
+        "scope": {
+          "n": 23,
+          "acc": 78.26
+        },
+        "verbal": {
+          "n": 15,
+          "acc": 73.33
+        }
+      },
+      "arm_b_by_direction": {
+        "no->yes": {
+          "n": 19,
+          "acc": 73.68
+        },
+        "yes->no": {
+          "n": 62,
+          "acc": 77.42
+        }
+      }
+    },
+    "mlp/seed71": {
+      "n_pairs": 81,
+      "accuracy": {
+        "o": 85.19,
+        "a": 92.59,
+        "b": 76.54
+      },
+      "balanced_accuracy": {
+        "o": 83.03,
+        "a": 91.51,
+        "b": 75.55
+      },
+      "predicted_yes_rate": {
+        "o": 71.6,
+        "a": 74.07,
+        "b": 34.57
+      },
+      "edit_cost": -7.4,
+      "polarity_cost": 16.05,
+      "polarity_cost_balanced": 15.96,
+      "contrast_consistency": 69.14,
+      "chance_consistency": 25.0,
+      "constant_label_consistency": 0.0,
+      "flip_rate": 69.14,
+      "conditional_negation_accuracy": 74.67,
+      "margin_profile_arm_b": {
+        "correct": {
+          "n": 62,
+          "mean_margin": 0.4826,
+          "frac_above_0.9": 0.1613
+        },
+        "incorrect": {
+          "n": 19,
+          "mean_margin": 0.2557,
+          "frac_above_0.9": 0.0
+        }
+      },
+      "arm_b_by_cue_family": {
+        "affixal": {
+          "n": 15,
+          "acc": 80.0
+        },
+        "antonym": {
+          "n": 3,
+          "acc": 100.0
+        },
+        "prepositional": {
+          "n": 11,
+          "acc": 90.91
+        },
+        "quantifier": {
+          "n": 14,
+          "acc": 57.14
+        },
+        "scope": {
+          "n": 23,
+          "acc": 78.26
+        },
+        "verbal": {
+          "n": 15,
+          "acc": 73.33
+        }
+      },
+      "arm_b_by_direction": {
+        "no->yes": {
+          "n": 19,
+          "acc": 73.68
+        },
+        "yes->no": {
+          "n": 62,
+          "acc": 77.42
+        }
+      }
+    }
+  },
+  "per_model_mean": {
+    "head": {
+      "contrast_consistency": 34.16,
+      "flip_rate": 35.8,
+      "conditional_negation_accuracy": 47.7,
+      "polarity_cost": 10.7,
+      "polarity_cost_balanced": 3.94,
+      "edit_cost": -12.35,
+      "accuracy": {
+        "o": 59.26,
+        "a": 71.6,
+        "b": 60.9
+      },
+      "balanced_accuracy": {
+        "o": 55.13,
+        "a": 68.06,
+        "b": 64.12
+      }
+    },
+    "lcca": {
+      "contrast_consistency": 75.72,
+      "flip_rate": 76.13,
+      "conditional_negation_accuracy": 79.99,
+      "polarity_cost": 13.99,
+      "polarity_cost_balanced": 18.87,
+      "edit_cost": -3.7,
+      "accuracy": {
+        "o": 90.95,
+        "a": 94.65,
+        "b": 80.66
+      },
+      "balanced_accuracy": {
+        "o": 89.83,
+        "a": 94.68,
+        "b": 75.81
+      }
+    },
+    "mlp": {
+      "contrast_consistency": 68.73,
+      "flip_rate": 68.73,
+      "conditional_negation_accuracy": 74.22,
+      "polarity_cost": 16.46,
+      "polarity_cost_balanced": 16.23,
+      "edit_cost": -7.4,
+      "accuracy": {
+        "o": 85.19,
+        "a": 92.59,
+        "b": 76.13
+      },
+      "balanced_accuracy": {
+        "o": 83.03,
+        "a": 91.51,
+        "b": 75.28
+      }
+    }
+  },
+  "per_seed_comparison": {
+    "seed13": {
+      "n_pairs": 81,
+      "gain_points": 4.94,
+      "bootstrap_95_ci": [
+        -4.94,
+        14.81
+      ],
+      "discordant_a_only": 11,
+      "discordant_b_only": 7,
+      "discordant_rate": 0.222,
+      "mcnemar_exact_p": 0.480682,
+      "min_detectable_effect_pts": 14.7
+    },
+    "seed42": {
+      "n_pairs": 81,
+      "gain_points": 8.64,
+      "bootstrap_95_ci": [
+        0.0,
+        18.52
+      ],
+      "discordant_a_only": 11,
+      "discordant_b_only": 4,
+      "discordant_rate": 0.185,
+      "mcnemar_exact_p": 0.118469,
+      "min_detectable_effect_pts": 13.4
+    },
+    "seed71": {
+      "n_pairs": 81,
+      "gain_points": 7.41,
+      "bootstrap_95_ci": [
+        -2.47,
+        17.28
+      ],
+      "discordant_a_only": 11,
+      "discordant_b_only": 5,
+      "discordant_rate": 0.198,
+      "mcnemar_exact_p": 0.210114,
+      "min_detectable_effect_pts": 13.8
+    }
+  },
+  "pooled_comparison": {
+    "n_pairs": 243,
+    "gain_points": 7.0,
+    "bootstrap_95_ci": [
+      1.23,
+      12.76
+    ],
+    "discordant_a_only": 33,
+    "discordant_b_only": 16,
+    "discordant_rate": 0.202,
+    "mcnemar_exact_p": 0.021294,
+    "min_detectable_effect_pts": 8.1
+  },
+  "decision_audit": {
+    "Q1_topology_buys_polarity": {
+      "criteria": [
+        {
+          "rule": "mean gain in contrast consistency >= 5.0 pts",
+          "pass": true
+        },
+        {
+          "rule": "treatment above control in all 3 seeds",
+          "pass": true
+        },
+        {
+          "rule": "bootstrap 95% CI excludes zero",
+          "pass": true
+        }
+      ],
+      "decision": "PASS",
+      "min_detectable_effect_pts": 8.1,
+      "caveat": "At n=243 the smallest difference detectable at 80% power is about 8.1 points. A FAIL below that is inconclusive, not evidence of no difference."
+    },
+    "Q2_any_configuration_handles_polarity": {
+      "criteria": [
+        {
+          "rule": "contrast consistency >= 45%",
+          "pass": true
+        },
+        {
+          "rule": "flip rate >= 50%",
+          "pass": true
+        }
+      ],
+      "decision": "PASS"
+    },
+    "note": "Q1 PASS with Q2 FAIL is coherent: the topology helps but no configuration represents polarity. Both thresholds were fixed before any run."
+  },
+  "markdown_table": "| Model | bal. acc O | bal. acc A | bal. acc B | edit cost | polarity cost | contrast consistency | flip rate |\n|---|---|---|---|---|---|---|---|\n| head | 55.13 | 68.06 | 64.12 | -12.35 | 3.94 | 34.16 | 35.8 |\n| lcca | 89.83 | 94.68 | 75.81 | -3.7 | 18.87 | 75.72 | 76.13 |\n| mlp | 83.03 | 91.51 | 75.28 | -7.4 | 16.23 | 68.73 | 68.73 |\n\nChance contrast consistency 25.0; a model answering identically to both arms scores 0.0. Polarity cost is balanced acc(A) - balanced acc(B)."
+}

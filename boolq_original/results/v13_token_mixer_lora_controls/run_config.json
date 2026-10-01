@@ -1,0 +1,32 @@
+{
+  "data_seed": 2026,
+  "seeds": [
+    13,
+    42,
+    71
+  ],
+  "epochs": 3,
+  "max_length": 512,
+  "batch_size": 2,
+  "eval_batch_size": 4,
+  "gradient_accumulation_steps": 8,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "shuffle_trials": 3,
+  "mixer": {
+    "rank": 496,
+    "kernel": 32,
+    "dilation": 16
+  },
+  "lora": {
+    "rank": 11,
+    "alpha": 22,
+    "dropout": 0.1,
+    "target_modules": [
+      "query_proj",
+      "value_proj"
+    ]
+  },
+  "model_dir": "/content/drive/MyDrive/Colab Notebooks/NLP Modeller/deberta-v3-large"
+}

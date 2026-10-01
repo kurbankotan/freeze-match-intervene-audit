@@ -16,9 +16,12 @@ The audit asks three separate questions about an inserted module: does the fitte
 
 Each results directory holds per-row predictions with probabilities, aggregate tables, bootstrap and McNemar outputs, gate reports, `run_environment.json` and `FILE_MANIFEST_SHA256.csv`. `MANIFEST_LOCK.md` records the SHA-256 of each manifest and every annotation made during execution (including a STOP-gate event and a numerics override, both described in the paper).
 
-## What is elsewhere
+## Original BoolQ study
 
-- The original BoolQ study (training and evaluation code, the fifteen frozen-backbone checkpoints, raw held-out and contrast predictions, result tables, SHA-256 manifests): https://github.com/kurbankotan/Adapter-Contribution-Audit
+`boolq_original/` holds the archived BoolQ study unchanged: training and evaluation notebooks, the fifteen frozen-backbone checkpoints (`boolq_original/checkpoints/`), raw held-out and contrast predictions, result tables and SHA-256 manifests (`boolq_original/results/`), and the polarity contrast set with its generation and screening records. The revision notebooks read these archives from this directory.
+
+## Not in this repository
+
 - Large trained states are not redistributed and are identified by SHA-256 in the result files: DeBERTa-v3-large full fine-tuning (about 1.7 GB each) and Qwen3-1.7B-Base (about 6.9 GB each).
 - Datasets (public, not redistributed): BoolQ via the Hugging Face dataset `google/boolq` (revision `35b264d`); WinoGrande 1.1 from `https://storage.googleapis.com/ai2-mosaic/public/winogrande/winogrande_1.1.zip` (SHA-256 `3619ab10…`). Models: DeBERTa-v3-large and Qwen3-1.7B-Base (revision `ea980cb0…`) from the Hugging Face Hub, under their upstream terms.
 

@@ -1,0 +1,48 @@
+{
+  "n_items": 81,
+  "note": "Post-adjudication. Cohen's kappa in human_validation_summary.json stays as computed from the independent first pass; nothing in the first-pass files was altered.",
+  "adjudication": {
+    "items_requiring_a_decision": 34,
+    "field_level_disagreements": 24,
+    "agreed_rejections_carried_from_first_pass": 10,
+    "resolved_round2": 19,
+    "resolved_round3": 5,
+    "unresolved_sent_to_third_human": 0
+  },
+  "final_counts": {
+    "usable_all_conditions": 58,
+    "excluded": 23,
+    "a_condition_valid": 73,
+    "b_condition_valid": 60,
+    "recoverable_by_regeneration": 18,
+    "permanent_drops": 5
+  },
+  "final_answer_original_distribution": {
+    "yes": 59,
+    "no": 17,
+    "unclear": 5
+  },
+  "defect_classes": {
+    "b_self_contradictory_sentence": 4,
+    "b_contradicts_retained_sentence": 7,
+    "original_answer_indeterminate": 5,
+    "b_negates_wrong_proposition": 3,
+    "a_is_verbatim_copy_of_original": 2,
+    "dangling_reference_to_deleted_text": 2
+  },
+  "agreed_decision_rules": {
+    "item_acceptable_reject_if": [
+      "a version is a verbatim copy of the original passage",
+      "the retained text re-asserts the proposition B denies",
+      "the edited sentence is internally self-contradictory",
+      "B negates a proposition other than the one the question asks about",
+      "a version refers to content deleted from the passage with no recoverable antecedent",
+      "the original passage does not determine an answer"
+    ],
+    "item_acceptable_keep_despite": [
+      "typographic artifacts, whether inherited from the source or introduced by the rewrite",
+      "awkward wording, double negatives and coinages that leave the proposition unambiguous",
+      "the counterfactual falsity of B, which is the manipulation itself"
+    ]
+  }
+}

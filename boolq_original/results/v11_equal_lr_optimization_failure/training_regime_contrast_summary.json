@@ -1,0 +1,10 @@
+{
+  "estimand": "frozen V9 minus matched full-fine-tuning adapter-on/off balanced-accuracy loss",
+  "mean_points": 26.952044168020972,
+  "seed_sd_points": 3.053564179738811,
+  "ci95_low_points": 19.366570233596555,
+  "ci95_high_points": 34.53751810244539,
+  "positive_seeds": 3,
+  "support_rule": "positive in all three seeds and paired seed CI lower bound above zero",
+  "support_rule_passed": true
+}

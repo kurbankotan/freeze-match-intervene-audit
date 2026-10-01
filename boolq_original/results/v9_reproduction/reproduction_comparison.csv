@@ -1,0 +1,9 @@
+metric,published_percent,reproduced_percent,difference_points,tolerance_points,passed
+LCCA accuracy mean,84.09785932721712,84.09785932721712,0.0,0.5,True
+LCCA accuracy SD,0.7191422639941807,0.7191422639941807,0.0,0.5,True
+LCCA balanced accuracy mean,83.8927966112366,83.8927966112366,0.0,0.5,True
+LCCA macro-F1 mean,83.34419419978354,83.34419419978354,0.0,0.5,True
+LCCA-minus-MLP accuracy,5.433231396534151,5.433231396534151,0.0,0.5,True
+LCCA-minus-MLP balanced accuracy,7.118048030721336,7.118048030721336,0.0,0.5,True
+LCCA-minus-MLP macro-F1,6.285990501904089,6.285990501904089,0.0,0.5,True
+LCCA balanced accuracy higher than MLP in every seed,3.0,3.0,0.0,0.0,True

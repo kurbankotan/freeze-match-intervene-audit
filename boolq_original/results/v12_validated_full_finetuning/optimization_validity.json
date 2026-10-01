@@ -1,0 +1,21 @@
+{
+  "status": "VALID",
+  "prespecified_checks": {
+    "all_seed_best_internal_validation_balanced_accuracy_at_least_0_60": true,
+    "all_seed_enabled_heldout_balanced_accuracy_above_chance": true,
+    "mean_enabled_heldout_balanced_accuracy_exceeds_archived_frozen_head_only_mean": true
+  },
+  "best_internal_validation_balanced_accuracy_by_seed": {
+    "13": 0.8913709039392099,
+    "42": 0.8995676252506853,
+    "71": 0.9012695258596899
+  },
+  "enabled_heldout_balanced_accuracy_by_seed": {
+    "13": 0.8898987244022536,
+    "42": 0.8855379766591738,
+    "71": 0.8870329140722143
+  },
+  "enabled_heldout_mean_balanced_accuracy": 0.8874898717112139,
+  "archived_frozen_head_only_mean_balanced_accuracy": 0.6046690798271527,
+  "interpretation_if_invalid": "Adapter attribution is inconclusive because the trainable-backbone model did not meet the prespecified learning-validity gate."
+}

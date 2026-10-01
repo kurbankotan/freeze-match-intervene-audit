@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or its research artifacts, please cite the accompanying manuscript."
+title: "Full Fine-Tuning Can Obscure Adapter Contribution"
+type: software
+repository-code: "https://github.com/kurbankotan/Adapter-Contribution-Audit"
+url: "https://github.com/kurbankotan/Adapter-Contribution-Audit"
+license: MIT
+authors:
+  - family-names: Kotan
+    given-names: Kurban

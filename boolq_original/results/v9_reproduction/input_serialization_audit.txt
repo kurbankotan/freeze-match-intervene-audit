@@ -1,0 +1,4 @@
+Executable V9 serialization retained for exact reproduction:
+tokenizer(first = "question: {question} answer: {option}", second = passage)
+DeBERTa special-token order: [CLS] question answer option [SEP] passage [SEP]
+This differs from the passage-first sequence stated later in manuscript prose.

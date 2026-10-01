@@ -1,0 +1,4 @@
+model,encoder_parameters_frozen,adapter_parameters,scorer_parameters,total_trainable_parameters
+head_only,434012160,0,1025,1025
+mlp_adapter,434012160,1050625,1025,1051650
+lcca_adapter,434012160,1050625,1025,1051650
