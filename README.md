@@ -1,8 +1,8 @@
 # freeze-match-intervene-audit
 
-Code, manifests and raw results for the manuscript **"Full Fine-Tuning Can Obscure Adapter Contribution: A Freeze–Match–Intervene Audit of a Low-Rank Attention Adapter"** (Kurban Kotan, Manisa Celal Bayar University).
+Code, manifests and raw results for the manuscript **"Full Fine-Tuning Can Obscure Adapter Contribution: A Freeze–Match–Intervene Audit of Attention and Bottleneck Adapters"** (Kurban Kotan, Manisa Celal Bayar University).
 
-The audit asks three separate questions about an inserted module: does the fitted system depend on it (same-checkpoint intervention in three states: `on`, `norm_only`, `off`), does it beat exactly parameter-matched alternatives, and do the answers change when the backbone is frozen versus fully fine-tuned. The module studied is a Low-Rank Attention Adapter (LRAA; legacy identifier `lcca` in file names) on DeBERTa-v3-large, with BoolQ as the primary task, WinoGrande as a second task, and Qwen3-1.7B-Base as a second backbone.
+The audit asks three separate questions about an inserted module: does the fitted system depend on it (same-checkpoint intervention in three states: `on`, `norm_only`, `off`), does it beat exactly parameter-matched alternatives, and do the answers change when the backbone is frozen versus fully fine-tuned. Two adapter designs are audited on DeBERTa-v3-large: a Low-Rank Attention Adapter (LRAA; legacy identifier `lcca` in file names) and standard Houlsby bottleneck adapters, with BoolQ as the primary task, WinoGrande as a second task, and Qwen3-1.7B-Base as a second backbone.
 
 ## Contents of this repository
 
@@ -13,6 +13,7 @@ The audit asks three separate questions about an inserted module: does the fitte
 | FT-TRAJ-1: two further full-fine-tuning trajectories with per-epoch evaluation | `notebooks/fmi_nb2b_ft_traj1_per_epoch_colab.ipynb` | `manifests/FMI_manifest_v1_3_amendment_FT-TRAJ-1.md` | `results/fmi_nb2b_ft_traj1_results_20260925T111023Z/` |
 | Q-HELDOUT-1: Qwen3-1.7B-Base hash pre-check and single-look held-out evaluation | `notebooks/fmi_nb3_qwen_hash_precheck_cpu_colab.ipynb`, `notebooks/fmi_nb4_qwen_heldout_single_look_colab.ipynb` | v1.2, Part B | `results/fmi_nb4_qwen_heldout_results_20260925T164440Z/` |
 | W-1: WinoGrande, five seeds × seven methods | `notebooks/fmi_nb5_winogrande_second_task_colab.ipynb` | `manifests/FMI_manifest_W1_second_task_WinoGrande.md` | `results/fmi_nb5_winogrande_results_20260930T222505Z/` |
+| H-1: standard Houlsby adapters (48 bottleneck adapters), frozen vs full fine-tuning, BoolQ and WinoGrande | `notebooks/fmi_nb7_houlsby_adapters_colab.ipynb` | `manifests/FMI_manifest_H1_standard_adapters.md` | `results/fmi_nb7_houlsby_boolq_results_20261005T162343Z/`, `results/fmi_nb7_houlsby_winogrande_results_20261006T060824Z/` |
 
 Each results directory holds per-row predictions with probabilities, aggregate tables, bootstrap and McNemar outputs, gate reports, `run_environment.json` and `FILE_MANIFEST_SHA256.csv`. `MANIFEST_LOCK.md` records the SHA-256 of each manifest and every annotation made during execution (including a STOP-gate event and a numerics override, both described in the paper).
 

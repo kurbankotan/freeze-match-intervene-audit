@@ -9,6 +9,7 @@ exchanged before the corresponding runs and are released with the artifacts (the
 | v1.2 | manifests/FMI_manifests_and_decision_rules_v1_2.md | 3250afde4a2b6be6e3642b846c14371b11d320bf439b0a1030ba880d6213a0dc | 2026-09-24 | D-NORM-1 (NB-1); FT-RERUN-1 + D2 (NB-2); Q-HELDOUT-1 (NB-3, NB-4) |
 | v1.3 amendment | manifests/FMI_manifest_v1_3_amendment_FT-TRAJ-1.md | 40ab9bbc963dac998560e7ca7c4c08826637c5922baa127c7b9b9bf332254ae7 | 2026-09-25 | FT-TRAJ-1 (NB-2b) |
 | W-1 | manifests/FMI_manifest_W1_second_task_WinoGrande.md | 412fe5383cc08bd7848ee1d250f94ec054f78b082fac4060bbb2c72a24b6b3e1 | 2026-09-30 | WinoGrande second task (NB-5) |
+| H-1 | manifests/FMI_manifest_H1_standard_adapters.md | bf2fc7b8557f002c4e0f7d1f7bb5e2e8624374c2fec55fb2b726062544ed5b1b | 2026-10-02 | Standard Houlsby adapters on BoolQ and WinoGrande (NB-7) |
 
 ## Annotations
 
@@ -24,3 +25,7 @@ exchanged before the corresponding runs and are released with the artifacts (the
   0.0 deviation). Override limited to the wave4b13 cells (≤ 2% label mismatches, ≤ 0.5 logit deviation).
 - 2026-09-30 — W-1 written before the WinoGrande run; a smoke test on a subsample preceded the full run; after a power outage the analysis
   cell was re-executed from the stored progress files and reproduced all 42 result files byte for byte.
+- 2026-10-05 — NB-7 (H-1). BoolQ ran with the notebook as written. Before any WinoGrande run, a new Colab image (Python 3.13,
+  TensorFlow built against protobuf 6) made the transformers import fail; the notebook was patched to disable the TensorFlow
+  import and to drop the protobuf pin. Model, data, training and analysis code were unchanged; a smoke test preceded each
+  full run. Both tasks met the prespecified regime rule (outcome map case 1).

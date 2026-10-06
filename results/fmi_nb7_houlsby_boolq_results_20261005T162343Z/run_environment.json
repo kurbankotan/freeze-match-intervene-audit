@@ -1,0 +1,90 @@
+{
+  "notebook": "NB-7 H-1 Houlsby adapters",
+  "task": "boolq",
+  "manifest": "FMI_manifest_H1_standard_adapters.md",
+  "smoke_test": false,
+  "repository_commit": "3b29fbb2d5052087b95221fa7960ba0efc2dda90",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "amp_dtype": "torch.bfloat16",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "transformers": "4.57.6",
+  "seeds": [
+    13,
+    42,
+    71
+  ],
+  "epochs": 3,
+  "bottleneck": 10,
+  "run_started_utc": "2026-10-05T09:41:26.985024+00:00",
+  "run_finished_utc": "2026-10-05T16:23:43.425011+00:00",
+  "session_active_seconds": 24136.440043338,
+  "runs": {
+    "frozen_seed13": {
+      "minutes": 58.53399924437205,
+      "peak_gpu_gb": 2.4431533813476562,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_boolq/states/frozen_seed13.pt",
+        "bytes": 4199531,
+        "sha256": "2005b20a526237d88ddb3b4578e279c2927a647fc70292576cac9c615d9314b5",
+        "contents": "adapters + scorer"
+      }
+    },
+    "frozen_seed42": {
+      "minutes": 58.27545747756958,
+      "peak_gpu_gb": 2.44315242767334,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_boolq/states/frozen_seed42.pt",
+        "bytes": 4199531,
+        "sha256": "ba37d8269c11f2bf7e808d8ed9e54f79b0d11272689090e52c48842d8b910485",
+        "contents": "adapters + scorer"
+      }
+    },
+    "frozen_seed71": {
+      "minutes": 59.22150524457296,
+      "peak_gpu_gb": 2.443150520324707,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_boolq/states/frozen_seed71.pt",
+        "bytes": 4199531,
+        "sha256": "86a1f489d75b9a1be42884de8a22870d37b96761f8f1caf2ac100f2afea1669d",
+        "contents": "adapters + scorer"
+      }
+    },
+    "fullft_seed13": {
+      "minutes": 70.76608728567759,
+      "peak_gpu_gb": 8.142847537994385,
+      "best_epoch": 2,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_boolq/states/fullft_seed13.pt",
+        "bytes": 1740379075,
+        "sha256": "6b1f863a4b4ab936b78cfdfbca50560d7bec29ab534ae1e193839d4a2554e278",
+        "contents": "full model"
+      }
+    },
+    "fullft_seed42": {
+      "minutes": 70.59835084676743,
+      "peak_gpu_gb": 8.145881652832031,
+      "best_epoch": 2,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_boolq/states/fullft_seed42.pt",
+        "bytes": 1740379075,
+        "sha256": "f7c45cd505b2deb297a3ae844d84c06bfa536bed6a56fc1e72acf45b9319d14d",
+        "contents": "full model"
+      }
+    },
+    "fullft_seed71": {
+      "minutes": 71.543754140536,
+      "peak_gpu_gb": 8.138040542602539,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_boolq/states/fullft_seed71.pt",
+        "bytes": 1740379075,
+        "sha256": "002ba4cdf52b67ba59835a8c033da7e54ffc84aa1c17339ae47b5757cfa6c511",
+        "contents": "full model"
+      }
+    }
+  }
+}

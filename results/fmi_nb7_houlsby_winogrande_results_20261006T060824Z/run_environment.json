@@ -1,0 +1,136 @@
+{
+  "notebook": "NB-7 H-1 Houlsby adapters",
+  "task": "winogrande",
+  "manifest": "FMI_manifest_H1_standard_adapters.md",
+  "smoke_test": false,
+  "repository_commit": "3b29fbb2d5052087b95221fa7960ba0efc2dda90",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "amp_dtype": "torch.bfloat16",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "transformers": "4.57.6",
+  "seeds": [
+    13,
+    42,
+    71,
+    7595,
+    1676
+  ],
+  "epochs": 3,
+  "bottleneck": 10,
+  "run_started_utc": "2026-10-05T18:17:22.343909+00:00",
+  "run_finished_utc": "2026-10-06T06:08:24.651581+00:00",
+  "session_active_seconds": 42662.307729108,
+  "runs": {
+    "frozen_seed13": {
+      "minutes": 62.61031636794408,
+      "peak_gpu_gb": 1.7156181335449219,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/frozen_seed13.pt",
+        "bytes": 4199531,
+        "sha256": "6a6cad116cfb7b96d2a328701127d4835e5a7a9844f1e930225651b77aef26d5",
+        "contents": "adapters + scorer"
+      }
+    },
+    "frozen_seed42": {
+      "minutes": 62.15164745648702,
+      "peak_gpu_gb": 1.7156181335449219,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/frozen_seed42.pt",
+        "bytes": 4199531,
+        "sha256": "61e0b3379fa2466518ef7b9d68143102bc6c688ba1a4f64c94a5a6a26ffb6d1b",
+        "contents": "adapters + scorer"
+      }
+    },
+    "frozen_seed71": {
+      "minutes": 62.26460114717484,
+      "peak_gpu_gb": 1.7156181335449219,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/frozen_seed71.pt",
+        "bytes": 4199531,
+        "sha256": "1a7cf1792e3bcd0f2b06441d96d18c4d2df1e0599e66b1924733efeefce1c8e8",
+        "contents": "adapters + scorer"
+      }
+    },
+    "frozen_seed7595": {
+      "minutes": 64.19880674680074,
+      "peak_gpu_gb": 1.7156181335449219,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/frozen_seed7595.pt",
+        "bytes": 4199931,
+        "sha256": "6f4a51d0820f44bafff9fc96491d2a967726bb1f344d08939969d75c22c3cf38",
+        "contents": "adapters + scorer"
+      }
+    },
+    "frozen_seed1676": {
+      "minutes": 64.42761540412903,
+      "peak_gpu_gb": 1.7156181335449219,
+      "best_epoch": 2,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/frozen_seed1676.pt",
+        "bytes": 4199931,
+        "sha256": "c3b75e964ebed8a794398a000b69307da2ca78951f9400aab6f2e5c0e6f2c14b",
+        "contents": "adapters + scorer"
+      }
+    },
+    "fullft_seed13": {
+      "minutes": 75.51668924887976,
+      "peak_gpu_gb": 8.118892192840576,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/fullft_seed13.pt",
+        "bytes": 1740379075,
+        "sha256": "7c58432654fe39d0d407a52e734d94cf7c7dd96302f33484bfef8efad190235f",
+        "contents": "full model"
+      }
+    },
+    "fullft_seed42": {
+      "minutes": 76.03971650997798,
+      "peak_gpu_gb": 8.11889123916626,
+      "best_epoch": 1,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/fullft_seed42.pt",
+        "bytes": 1740379075,
+        "sha256": "a3c12b080c1026aa99c2e9e527ea7b720a6d3214f1084737672b9a65d310657c",
+        "contents": "full model"
+      }
+    },
+    "fullft_seed71": {
+      "minutes": 76.68649151325226,
+      "peak_gpu_gb": 8.11840295791626,
+      "best_epoch": 1,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/fullft_seed71.pt",
+        "bytes": 1740379075,
+        "sha256": "e3c5777833af44935f4155a70518213d5f1e6eb54e4c00fa19fcb66a442a4fd4",
+        "contents": "full model"
+      }
+    },
+    "fullft_seed7595": {
+      "minutes": 78.66802950700124,
+      "peak_gpu_gb": 8.11889123916626,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/fullft_seed7595.pt",
+        "bytes": 1740380255,
+        "sha256": "6b9d3f066c1ff5791ae166671f77b974d40f57472618a57600f900d19f86b6c6",
+        "contents": "full model"
+      }
+    },
+    "fullft_seed1676": {
+      "minutes": 78.76250282526016,
+      "peak_gpu_gb": 8.11883020401001,
+      "best_epoch": 3,
+      "state": {
+        "file": "/content/drive/MyDrive/FMI/NB7_houlsby_winogrande/states/fullft_seed1676.pt",
+        "bytes": 1740380255,
+        "sha256": "41105a5ecf0fe7701fc990161b2e405dd953d4c80d976130c30d5712bb5a9090",
+        "contents": "full model"
+      }
+    }
+  }
+}
